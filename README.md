@@ -8,7 +8,7 @@ Unofficial PyTorch implementation of He's: [Neural Network Adaptation and Data A
 Dependency
 ----------
 
-* `PyTorch <https://pytorch.org/>`_ 
+* `PyTorch <https://pytorch.org/>`
 * `apkit <https://github.com/hwp/apkit>`_ (version 0.2)
 
 
