@@ -23,8 +23,8 @@ class SSLR_Dataset(Dataset):
     def encode(self, y):
         def gaussian_func(gt_angle):
             # sigma = beam_width
-            sigma = 3.15
-            # sigma = 8
+            # sigma = 3.15
+            sigma = 8
             angles = np.arange(360)
             out = np.array(np.exp(-1 * np.square(angles - 180) / sigma ** 2))
             out = np.roll(out, gt_angle - 180) # 向右 roll gt_angle - 180 / 向左 roll 180 - gt_angle
