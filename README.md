@@ -19,5 +19,5 @@ We use the `SSLR dataset <https://www.idiap.ch/dataset/sslr>`_ for the experimen
 
 
 ## Usage
-1. Run ./qsub/gen_data_frame_level.sh to extract features, then write them and the corresponding label into pickle file
-2. Run ./qsub/train_with_CNN-STFT.sh and that's it. (If you don't want to select the two-stage training strategy, you may Run ./qsub/train_with_CNN-STFT-wo2stage.sh and that's it.)
+1. Run `./qsub/gen_data_frame_level.sh` to extract features, then write them and the corresponding label into pickle file
+2. Run `./qsub/train_with_CNN-STFT.sh` and that's it. (If you don't want to select the two-stage training strategy, you may Run `./qsub/train_with_CNN-STFT-wo2stage.sh` and that's it.)
